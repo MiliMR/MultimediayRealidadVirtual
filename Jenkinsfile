@@ -9,7 +9,6 @@ pipeline {
                 }
             }
         }
-        
         stage('Dependencies Check') {
             steps {
                 dir('dotty-example-project'){
